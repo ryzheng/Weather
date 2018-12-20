@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_marginStart="@dimen/margin_15"
+    android:layout_marginTop="30dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_future_week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/sub_text_size" />
+
+    <ImageView
+        android:id="@+id/iv_future_ico"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:contentDescription="@string/image_desc"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/tv_future_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/sub_text_size" />
+
+    <TextView
+        android:id="@+id/tv_future_weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_15"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/sub_text_size" />
+
+    <TextView
+        android:id="@+id/tv_future_wind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_15"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/sub_text_size" />
+
+</LinearLayout>

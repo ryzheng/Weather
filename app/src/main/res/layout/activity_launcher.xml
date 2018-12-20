@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<ImageView-->
+        <!--android:id="@+id/iv_adv"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--android:src="@drawable/launcher" />-->
+
+    <TextView
+        android:id="@+id/tv_delay"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="#33FFFFFF"
+        android:gravity="center"
+        android:text="3"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_skip"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_toLeftOf="@id/tv_delay"
+        android:background="#33FFFFFF"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="跳过"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:focusable="true" />
+
+</RelativeLayout>

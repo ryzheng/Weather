@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_guide"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <RadioGroup
+        android:id="@+id/rg_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_dot_1"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/tab_dot_selector" />
+
+        <RadioButton
+            android:id="@+id/rb_dot_2"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableTop="@drawable/tab_dot_selector" />
+
+        <RadioButton
+            android:id="@+id/rb_dot_3"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableTop="@drawable/tab_dot_selector" />
+
+        <RadioButton
+            android:id="@+id/rb_dot_4"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableTop="@drawable/tab_dot_selector" />
+    </RadioGroup>
+
+</RelativeLayout>

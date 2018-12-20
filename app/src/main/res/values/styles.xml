@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashThem" parent="AppTheme">
+        <!--将主题设置为全屏-->
+        <item name="android:windowFullscreen">true</item>
+        <!--将主题设置为透明-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!--设置系统的主题背景-->
+        <item name="android:windowBackground">@drawable/launcher</item>
+    </style>
+
+
+</resources>
