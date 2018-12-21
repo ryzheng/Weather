@@ -5,4 +5,4 @@
 an android app for weather
 
 ## screenshot-应用截图
- ![image](https://github.com/ryzheng/Weather/img/s1.png)
+ ![image](https://github.com/ryzheng/Weather/blob/master/img/s1.png)
